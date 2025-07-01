@@ -5,7 +5,7 @@ import Doctors from "./Components/Card/Doctors";
 import { SimpleFooter } from "./Components/Footer/Footer";
 import About from "./Components/Biz haqimizda/About";
 import Tips from "./Components/Reklams/Tips";
-
+import "./index.css"; // yoki sizning Tailwind CSS faylingiz
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 function App() {
