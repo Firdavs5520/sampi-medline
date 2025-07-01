@@ -9,19 +9,19 @@ import {
 
 export function ProfileCardFarhod() {
   return (
-    <Card className="w-96">
-      <CardHeader floated={false} className="h-[450px]">
+    <Card className="w-96 mb-4">
+      <CardHeader floated={false} className="h-80">
         <img
-          src="https://i.ibb.co/hFCsGZ8P/Sadullayev-Farhod.jpg"
+          src="https://i.ibb.co/spnqGbDy/Yusupov-Sunnatillo.jpg"
           alt="profile-picture"
         />
       </CardHeader>
       <CardBody className="text-center">
         <Typography variant="h4" color="blue-gray" className="mb-2">
-          Sadullayev Farhod
+          Yusupov Sunnatillo
         </Typography>
         <Typography color="blue-gray" className="font-medium" textGradient>
-          LOR mutaxassisi
+          LOR shifokori
         </Typography>
       </CardBody>
       <CardFooter className="flex justify-center gap-7 pt-2">

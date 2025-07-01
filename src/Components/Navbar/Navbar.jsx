@@ -1,95 +1,44 @@
 import React from "react";
-import {
-  Navbar,
-  Collapse,
-  Typography,
-  IconButton,
-} from "@material-tailwind/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-function NavList() {
+const Navbar = () => {
   return (
-    <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <a
-        href="https://yandex.uz/maps/?ll=69.331509%2C41.364711&mode=routes&rtext=~41.364888%2C69.331461&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D112768636237&z=18.8"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center gap-2 hover:bg-yellow-500 duration-300 p-1.5 rounded-lg "
-      >
+    <div className="flex items-center justify-between mx-10 my-4 border p-4 rounded-xl shadow-gray-500 shadow-sm ">
+      <div>
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Yandex_Go_icon.svg/1200px-Yandex_Go_icon.svg.png"
+          src="https://i.ibb.co/nsx7n7v0/SAMPI-MEDLINE-SALOMATLIK-MARKAZI.png"
           alt=""
-          className="w-8"
-        />{" "}
-        Sampi Medlinega Yandex Go orqali borish
-      </a>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-2.5 hover:bg-white hover:text-black  bg-black text-white rounded-lg font-bold duration-300 hover:border-black border"
-      >
-        <a
-          href="tel:+998955604444"
-          className="flex items-center  transition-colors duration-300"
-        >
-          <button>Qo'ng'iroq qilish</button>
-        </a>
-      </Typography>
-    </ul>
-  );
-}
+          className="h-8"
+        />
+      </div>
+      <div className="flex items-center gap-2">
+        <button className="flex items-center gap-2 bg-yellow-500 p-2 rounded-xl">
+          <a
+            href="https://yandex.uz/maps/?ll=69.331509%2C41.364711&mode=routes&rtext=~41.364888%2C69.331461&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D112768636237&z=18
 
-export function NavbarSimple() {
-  const [openNav, setOpenNav] = React.useState(false);
-
-  const handleWindowResize = () =>
-    window.innerWidth >= 960 && setOpenNav(false);
-
-  React.useEffect(() => {
-    window.addEventListener("resize", handleWindowResize);
-
-    return () => {
-      window.removeEventListener("resize", handleWindowResize);
-    };
-  }, []);
-
-  return (
-    <div className="flex justify-center my-4 mx-44">
-      <Navbar className="mx-auto max-w-screen-xl px-6 py-3 drop-shadow">
-        <div className="flex items-center justify-between text-blue-gray-900">
-          <Typography
-            as="a"
-            href="#"
-            variant="h6"
-            className="mr-4 cursor-pointer py-1.5"
+"
+            className="flex items-center gap-2"
           >
             <img
-              src="https://i.ibb.co/nsx7n7v0/SAMPI-MEDLINE-SALOMATLIK-MARKAZI.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Yandex_Go_icon.svg/1200px-Yandex_Go_icon.svg.png"
               alt=""
-              className="h-8 w-auto"
+              className="w-8"
             />
-          </Typography>
-          <div className="hidden lg:block">
-            <NavList />
-          </div>
-          <IconButton
-            variant="text"
-            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
-            ripple={false}
-            onClick={() => setOpenNav(!openNav)}
-          >
-            {openNav ? (
-              <XMarkIcon className="h-6 w-6" strokeWidth={2} />
-            ) : (
-              <Bars3Icon className="h-6 w-6" strokeWidth={2} />
-            )}
-          </IconButton>
-        </div>
-        <Collapse open={openNav}>
-          <NavList />
-        </Collapse>
-      </Navbar>
+            <p className="hidden sm:flex">Yandex Taxi orqali kelish</p>
+          </a>
+        </button>
+        <button className="p-2 bg-blue-gray-500 text-white rounded-xl">
+          <a href="tel:+998955604444" className="flex items-center gap-2">
+            <img
+              src="https://freesvg.org/img/phone-call-icon.png"
+              alt=""
+              className="w-8"
+            />
+            <p className="hidden sm:flex">Qo'ngiroq qilish</p>
+          </a>
+        </button>
+      </div>
     </div>
   );
-}
+};
+
+export default Navbar;
