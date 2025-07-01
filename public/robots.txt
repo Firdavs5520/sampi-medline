@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sampi-medline.vercel.app/sitemap.xml
