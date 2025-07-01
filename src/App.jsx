@@ -27,7 +27,7 @@ function App() {
           height="400"
           frameBorder="0"
           allowFullScreen
-          className="rounded-xl"
+          className="rounded-xl sm:w-1/2"
         ></iframe>
       </div>
       <SimpleFooter />
