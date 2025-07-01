@@ -15,9 +15,10 @@ const doctors = [
     facebook: "https://www.facebook.com/SunnatLor/",
   },
   {
-    image: "/doctors/doctor3.jpg",
-    fullName: "Raxmatova Mohira Shavkatovna",
-    instagram: "https://instagram.com/mohira.doc",
+    image: "https://i.ibb.co/spnqGbDy/Yusupov-Sunnatillo.jpg",
+    fullName: "Yusupov Sunnatillo Abdumalikovich",
+    instagram: "https://www.instagram.com/sunnatillo_yusupov/",
+    facebook: "https://www.facebook.com/SunnatLor/",
   },
 ];
 
@@ -25,7 +26,7 @@ const Doctors = () => {
   return (
     <section
       id="doctors"
-      className="py-12 px-4 md:px-12 bg-gray-50 w-full rounded-lg"
+      className="py-12 px-4 md:px-12 bg-gray-50 w-full rounded-lg "
     >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-10">Shifokorlarimiz</h2>

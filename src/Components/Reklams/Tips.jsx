@@ -8,14 +8,16 @@ const tips = [
     url: "https://www.instagram.com/sampi_medline/reel/DIOtaCttVoM/",
   },
   {
-    title: "Yozda immunitetni qanday mustahkamlash mumkin?",
-    image: "/tips/immunitet.jpg",
-    url: "https://instagram.com/p/def456",
+    title: "Quloq og'riganda birinchi yordam kor'rsatishni bilasizmi?",
+    image:
+      "https://scontent.cdninstagram.com/v/t51.75761-15/486724196_17994699665785885_6684402040509121697_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&ig_cache_key=MzU5Nzc2NDU3NjE2Mzg1MDc0MQ%3D%3D.3-ccb1-7&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNzB4MjA4MC5zZHIifQ%3D%3D&_nc_ohc=Hd_YklC8TQkQ7kNvwEV7O3s&_nc_oc=AdnB9JJVY2BK1hnSiYOWbYa6c9qoNpmOO_HUiV1_9p5kceXv0VYXbIyoQjGYea7YBdA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=GvIQlBRsaMij59Rtx_Tqqg&oh=00_AfNS6Qc3EhJzMt9Qj0uG85oMvU6VQsS1oOap4YmV8vz8Xw&oe=6869F574",
+    url: "https://www.instagram.com/sampi_medline/reel/DHt09H7uun1/",
   },
   {
-    title: "Bolalarda LOR muammolari va davolash usullari",
-    image: "/tips/bolalar-lor.jpg",
-    url: "https://instagram.com/p/ghi789",
+    title: "Burunni tez-tez yuvish zararmi?",
+    image:
+      "https://scontent.cdninstagram.com/v/t51.75761-15/485069047_17993737652785885_6753586158296689852_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=MzU5MTY4NDUyMzM2OTYwMzM2OQ%3D%3D.3-ccb1-7&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNzB4MjA4MC5zZHIifQ%3D%3D&_nc_ohc=jfqvhWx3lqkQ7kNvwHeiH6k&_nc_oc=Adn6xqhYUsUhHDURrQH1JwDJc3I2X8YvsQJdecuBjXJm9r-AmewXBSbSpCQzPIyjBEM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=GvIQlBRsaMij59Rtx_Tqqg&oh=00_AfMAbKLEkeoqVcKIJFmciEHqdJsSbg6axyAQt-JumJkayQ&oe=6869D3DF",
+    url: "https://www.instagram.com/sampi_medline/reel/DHYOgtgtqEp/",
   },
 ];
 

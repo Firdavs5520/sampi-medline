@@ -2,7 +2,7 @@ import React from "react";
 
 const DoctorCard = ({ image, fullName, instagram, telegram, facebook }) => {
   return (
-    <div className="bg-white rounded-xl shadow-md pb-4 text-center hover:shadow-lg transition duration-300">
+    <div className="bg-white rounded-xl shadow-md p-4 text-center hover:shadow-lg transition duration-300">
       <img
         src={image}
         alt={fullName}
