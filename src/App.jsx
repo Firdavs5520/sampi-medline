@@ -33,5 +33,3 @@ function App() {
 }
 
 export default App;
-
-// File: src/Components/Navbar/Navbar.jsx
