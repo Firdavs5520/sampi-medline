@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between mx-10 my-4 border p-4 rounded-xl shadow-gray-500 shadow-sm ">
+    <div className="flex items-center justify-between sm:mx-10 my-4 border p-4 rounded-xl shadow-gray-500 shadow-sm mx-1">
       <div>
         <img
           src="https://i.ibb.co/nsx7n7v0/SAMPI-MEDLINE-SALOMATLIK-MARKAZI.png"
