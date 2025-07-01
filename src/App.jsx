@@ -24,6 +24,9 @@ function App() {
         <link rel="canonical" href="https://sampi-medline.vercel.app/" />
         <meta name="robots" content="index, follow" />
 
+        {/* ✅ Yandex tasdiqlash tegi */}
+        <meta name="yandex-verification" content="02edfd513a40282d" />
+
         {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Sampi Medline" />
