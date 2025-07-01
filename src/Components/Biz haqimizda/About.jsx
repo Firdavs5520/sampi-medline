@@ -99,6 +99,7 @@ const About = () => {
               🎯 Maqsadimiz — bemorlarni sog‘lom hayotga qaytarish va ularga
               ishonchli tibbiy yordam ko‘rsatishdir.
             </p>
+            <h1 className="font-medium text-center">Sampi Medline</h1>
           </div>
         </div>
       </section>
