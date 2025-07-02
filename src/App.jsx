@@ -6,6 +6,7 @@ import { SimpleFooter } from "./Components/Footer/Footer";
 import About from "./Components/Biz haqimizda/About";
 import Tips from "./Components/Reklams/Tips";
 import "./index.css"; // yoki sizning Tailwind CSS faylingiz
+import InstagramSection from "./Components/Reklams/InstagramSection";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           className="rounded-xl"
         ></iframe>
       </div>
+      <InstagramSection />
       <SimpleFooter />
     </div>
   );

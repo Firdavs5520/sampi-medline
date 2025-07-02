@@ -26,7 +26,7 @@ const Doctors = () => {
   return (
     <section
       id="doctors"
-      className="py-12 px-4 md:px-12 bg-gray-50 w-full rounded-lg "
+      className="py-12 x-4 md:px-12 bg-gray-50 w-full rounded-lg  h-full"
     >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-10">Shifokorlarimiz</h2>

@@ -3,10 +3,10 @@ import { Carousel } from "@material-tailwind/react";
 export function CarouselTransition() {
   return (
     <div>
-      <div className="mx-40  object-fill hidden sm:flex">
+      <div className="mx-1 sm:mx-40 h-1/2">
         <Carousel
           transition={{ duration: 2 }}
-          className="rounded-xl shadow-lg h-[550px]"
+          className="rounded-xl shadow-lg sm:h-[550px] h-[250px]"
         >
           <img
             src="https://lh3.googleusercontent.com/p/AF1QipNAqEEbuDUVa3o3M1xjg7xKcOUCovyV-hDhwTGm=s1360-w1360-h1020-rw"
