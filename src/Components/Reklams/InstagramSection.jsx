@@ -2,9 +2,9 @@ import React from "react";
 
 const InstagramSection = () => {
   return (
-    <div className="bg-white py-8 px-4 text-center">
+    <div className="bg-white py-2 px-4 text-center">
       <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-2">
-        Biz ijtimoiy tarmoqlardaham bormiz
+        Biz ijtimoiy tarmoqlarda ham bormiz
       </h2>
       <p className="text-gray-600 mb-4">
         Yangiliklar va foydali maslahatlar uchun bizni kuzatib boring!

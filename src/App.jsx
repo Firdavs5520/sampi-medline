@@ -7,12 +7,15 @@ import About from "./Components/Biz haqimizda/About";
 import Tips from "./Components/Reklams/Tips";
 import "./index.css"; // yoki sizning Tailwind CSS faylingiz
 import InstagramSection from "./Components/Reklams/InstagramSection";
+import Example from "./Components/Videos/Video";
 
 function App() {
   return (
     <div className="bg-white">
       <Navbar />
+
       <CarouselTransition />
+
       <About />
       <div className="flex justify-between mt-4 mx-10 flex-wrap">
         <Doctors />
@@ -29,6 +32,7 @@ function App() {
         ></iframe>
       </div>
       <InstagramSection />
+      <Example />
       <SimpleFooter />
     </div>
   );
