@@ -8,6 +8,8 @@ import Tips from "./Components/Reklams/Tips";
 import "./index.css"; // yoki sizning Tailwind CSS faylingiz
 import InstagramSection from "./Components/Reklams/InstagramSection";
 import Example from "./Components/Videos/Video";
+import { Route, Routes } from "react-router-dom";
+import Maps from "./Components/Maps/Maps";
 
 function App() {
   return (
@@ -21,16 +23,7 @@ function App() {
         <Doctors />
       </div>
       <Tips />
-      <div className="flex justify-center my-4">
-        <iframe
-          src="https://yandex.uz/map-widget/v1/?ll=69.3315%2C41.3649&z=17&l=map&pt=69.3315,41.3649,pm2rdm"
-          width="94.5%"
-          height="400"
-          frameBorder="0"
-          allowFullScreen
-          className="rounded-xl"
-        ></iframe>
-      </div>
+      <Maps />
       <InstagramSection />
       <Example />
       <SimpleFooter />

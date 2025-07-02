@@ -4,7 +4,6 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between sm:mx-40 my-4 border p-4 rounded-xl shadow-gray-500 shadow-sm mx-1">
       <div>
-        Navlink
         <img
           src="https://i.ibb.co/nsx7n7v0/SAMPI-MEDLINE-SALOMATLIK-MARKAZI.png"
           alt=""
