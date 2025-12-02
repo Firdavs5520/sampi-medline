@@ -3,13 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <meta
       name="google-site-verification"
       content="J7_t2-ouAxWbYH80VqDa_GexD1SqjEC29xAgi1tH4CU"
     />
-    <title>Sampi Medline</title>
 
+    <!-- SEO -->
+    <title>Sampi Medline – LOR Shifokori va Tibbiy Muolajalar</title>
+    <meta
+      name="description"
+      content="Sampi Medline – Qibray tumanidagi zamonaviy tibbiy klinika. LOR shifokori, ukol muolajasi, diagnostika va 24/7 xizmat."
+    />
+    <meta
+      name="keywords"
+      content="Sampi Medline, LOR, klinika, Qibray, tibbiyot, ukol, davolash"
+    />
+
+    <!-- Styles -->
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- Fonts & Icons -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -18,12 +32,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="Frame 4.png" />
   </head>
-  `
+
   <body>
     <!-- Yuklash ekrani -->
-    <div id="loading-screen" class="loading-screen">
+    <div
+      id="loading-screen"
+      class="loading-screen"
+      aria-label="Sayt yuklanmoqda"
+    >
       <div class="loader">
         <div class="pulse-ring"></div>
         <div class="clinic-logo">
@@ -34,50 +54,54 @@
     </div>
 
     <!-- Navigatsiya -->
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Asosiy navigatsiya">
       <div class="nav-container">
-        <div class="nav-logo">
+        <a href="#home" class="nav-logo">
           <i class="fas fa-ear-listen"></i>
           <span>Sampi Medline</span>
-        </div>
+        </a>
+
         <ul class="nav-menu">
           <li><a href="#home" class="nav-link">Bosh sahifa</a></li>
           <li><a href="#services" class="nav-link">Xizmatlar</a></li>
           <li><a href="#about" class="nav-link">Biz haqimizda</a></li>
           <li><a href="#doctors" class="nav-link">Shifokorlar</a></li>
         </ul>
-        <div class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+
+        <button class="hamburger" aria-label="Menyuni ochish">
+          <span></span><span></span><span></span>
+        </button>
       </div>
     </nav>
 
-    <!-- Asosiy boʻlim -->
+    <!-- Hero -->
     <section id="home" class="hero">
       <div class="hero-content">
         <div class="hero-text">
           <h1 class="hero-title">
-            <span class="title-line">Sizning sogliqingiz,</span>
-            <span class="title-line">Biz uchun muhim</span>
+            <span class="title-line">Sizning sog‘lig‘ingiz</span>
+            <span class="title-line">biz uchun muhim</span>
           </h1>
+
           <p class="hero-description">
             Tajribali shifokorlar va zamonaviy tibbiy texnologiyalar bilan
-            ajoyib tibbiy xizmatlarni taqdim etamiz.
+            yuqori sifatli xizmatlar.
           </p>
+
           <div class="hero-buttons">
             <a
-              href="https://yandex.uz/maps/?ll=69.331489%2C41.364901&mode=routes&rtext=~41.364888%2C69.331461&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D112768636237&z=16"
+              href="https://yandex.uz/maps/?ll=69.331489%2C41.364901&mode=routes&rtext=~41.364888%2C69.331461&rtt=auto"
+              target="_blank"
             >
               <button class="btn btn-primary">Yandex Go orqali kelish</button>
             </a>
 
             <a href="tel:+998955604444">
-              <button class="btn btn-secondary">Qo'ng'iroq qilish</button>
+              <button class="btn btn-secondary">Qo‘ng‘iroq qilish</button>
             </a>
           </div>
         </div>
+
         <div class="hero-image">
           <div class="floating-card card-1">
             <i class="fas fa-stethoscope"></i>
@@ -95,100 +119,93 @@
       </div>
     </section>
 
-    <!-- Xizmatlar boʻlimi -->
+    <!-- Xizmatlar -->
     <section id="services" class="services">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Bizning tibbiy xizmatlarimiz</h2>
+          <h2 class="section-title">Bizning xizmatlar</h2>
           <p class="section-subtitle">
-            Siz va oilangiz uchun keng qamrovli tibbiy yechimlar
+            Siz va oilangiz uchun eng kerakli tibbiy yechimlar
           </p>
         </div>
+
         <div class="services-grid">
           <div class="service-card">
             <div class="service-icon">
               <i class="fas fa-head-side-mask"></i>
             </div>
-            <h3>LOR (Otorinolaringologiya)</h3>
-            <p>
-              Quloq, burun va tomoq kasalliklarini tashxislash va davolash.
-              Zamonaviy uskunalar bilan professional parvarish.
-            </p>
+            <h3>LOR shifokori</h3>
+            <p>Quloq, burun va tomoq kasalliklarini tashxislash va davolash.</p>
           </div>
+
           <div class="service-card">
-            <div class="service-icon">
-              <i class="fas fa-syringe"></i>
-            </div>
-            <h3>Tibbiy ukol muolajasi</h3>
-            <p>
-              Har xil kasalliklar uchun professional ukol muolajasi. Xavfsiz va
-              samarali dori yuborish xizmatlari.
-            </p>
+            <div class="service-icon"><i class="fas fa-syringe"></i></div>
+            <h3>Tibbiy muolaja</h3>
+            <p>Xavfsiz, professional va samarali ukol muolajalari.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Biz haqimizda boʻlimi -->
+    <!-- Biz haqimizda -->
     <section id="about" class="about">
       <div class="container">
         <div class="about-content">
           <div class="about-text">
             <h2 class="section-title">Sampi Medline klinikasi haqida</h2>
             <p>
-              Uch yildan ortiq vaqt davomida Sampi Medline klinikasi tibbiy
-              soʻnggi soʻzda boʻlib, jamiyatimizga keng qamrovli tibbiy
-              xizmatlarni taqdim etib kelmoqda. Bemorlarni parvarish qilishga
-              boʻlgan sadoqatimiz, zamonaviy texnologiyalar va yuqori malakali
-              tibbiy mutaxassislar jamoasi bilan birgalikda bizni mintaqadagi
-              oilalar uchun ishonchli tanlovga aylantiradi.
+              3 yildan beri Qibray tumanida sifatli tibbiy xizmat ko‘rsatib,
+              tajribali mutaxassislar va zamonaviy uskunalar bilan bemorlarga
+              yordam berib kelamiz.
             </p>
 
-            <!-- Aloqa ma'lumotlari -->
             <div class="contact-info-section">
               <div class="contact-item-inline">
                 <i class="fas fa-phone"></i>
-                <span><strong>Telefon:</strong> +998 (90) 123-45-67</span>
+                <span><strong>Telefon:</strong> +998 95 560-44-44</span>
               </div>
               <div class="contact-item-inline">
                 <i class="fas fa-map-marker-alt"></i>
                 <span
-                  ><strong>Manzil:</strong> Toshkent shahri, Yunusobod tumani,
-                  Tibbiyot koʻchasi 123-uy</span
+                  ><strong>Manzil:</strong> Toshkent viloyati, Qibray tumani,
+                  Akademiklar ko‘chasi, 29-uy.</span
                 >
               </div>
               <div class="contact-item-inline">
                 <i class="fas fa-clock"></i>
-                <span><strong>Ish vaqti:</strong> 24/7 - Doimo ochiq</span>
+                <span><strong>Ish vaqti:</strong> 24/7 – Doimo ochiq</span>
               </div>
             </div>
 
             <div class="stats">
               <div class="stat">
                 <div class="stat-number">20,000+</div>
-                <div class="stat-label">Xizmat koʻrsatilgan bemorlar</div>
+                <div class="stat-label">Ko‘rsatilgan xizmatlar</div>
               </div>
               <div class="stat">
                 <div class="stat-number">10+</div>
-                <div class="stat-label">Tibbiy mutaxassislar</div>
+                <div class="stat-label">Mutaxassislar</div>
               </div>
               <div class="stat">
                 <div class="stat-number">3+</div>
-                <div class="stat-label">Yillik tajriba</div>
+                <div class="stat-label">Tajriba yili</div>
               </div>
             </div>
           </div>
+
           <div class="about-image">
             <div class="clinic-images">
               <img
-                src="https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Zamonaviy tibbiy muassasa"
+                src="https://lh3.googleusercontent.com/p/AF1QipNAqEEbuDUVa3o3M1xjg7xKcOUCovyV-hDhwTGm=s1360"
+                alt="Klinika ichki qismi"
                 class="main-clinic-image"
+                loading="lazy"
               />
               <img
-                src="https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt="Klinika ko'rinishi"
+                src="https://lh3.googleusercontent.com/p/AF1QipMxZ3XnJgFGThRctN3HTK_SMj8Aj6O1YVluGc4D=s1360"
+                alt="Klinika tashqi ko‘rinishi"
                 class="clinic-exterior"
+                loading="lazy"
               />
             </div>
           </div>
@@ -196,42 +213,44 @@
       </div>
     </section>
 
-    <!-- Shifokorlar boʻlimi -->
+    <!-- Shifokorlar -->
     <section id="doctors" class="doctors">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">
-            Mutaxassis shifokorlarimiz bilan tanishing
-          </h2>
+          <h2 class="section-title">Mutaxassis shifokorlarimiz</h2>
           <p class="section-subtitle">
-            Sizning sogliqingizga bagʻishlangan tajribali tibbiy mutaxassislar
+            Tajriba va professionallik — bizning ustunligimiz
           </p>
         </div>
+
         <div class="doctors-grid">
           <div class="doctor-card">
             <div class="doctor-image">
               <img
                 src="https://i.ibb.co/CK640Yvs/Nomsiz-dizayn.png"
                 alt="Sadullayev Farhod Xalilillayevich"
+                loading="lazy"
               />
             </div>
             <div class="doctor-info">
               <h3>Sadullayev Farhod Xalilillayevich</h3>
-              <p class="specialty">LOR mutaxassisi</p>
-              <p class="experience">3+ yillik tajriba</p>
+              <p class="specialty">LOR shifokori</p>
+              <p class="experience">3+ yil tajriba</p>
             </div>
           </div>
+
           <div class="doctor-card">
             <div class="doctor-image">
               <img
-                src="https://images.pexels.com/photos/6129967/pexels-photo-6129967.jpeg?auto=compress&cs=tinysrgb&w=400"
+                src="https://images.pexels.com/photos/6129967/pexels-photo-6129967.jpeg?auto=compress"
                 alt="Yusupov Sunnatillo Abdumalikovich"
+                loading="lazy"
               />
             </div>
             <div class="doctor-info">
               <h3>Yusupov Sunnatillo Abdumalikovich</h3>
-              <p class="specialty">LOR mutaxassisi</p>
-              <p class="experience">4+ yillik tajriba</p>
+              <p class="specialty">LOR shifokori</p>
+              <p class="experience">4+ yil tajriba</p>
             </div>
           </div>
         </div>
@@ -240,54 +259,56 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-section">
-            <div class="footer-logo">
-              <i class="fas fa-ear-listen"></i>
-              <span>Sampi Medline</span>
-            </div>
-            <p>
-              Tajribali shifokorlar va zamonaviy tibbiy texnologiyalar bilan
-              ajoyib tibbiy xizmatlarni taqdim etamiz.
-            </p>
+      <div class="container footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <i class="fas fa-ear-listen"></i>
+            <span>Sampi Medline</span>
           </div>
-          <div class="footer-section">
-            <h4>Tezkor havolalar</h4>
-            <ul>
-              <li><a href="#home">Bosh sahifa</a></li>
-              <li><a href="#services">Xizmatlar</a></li>
-              <li><a href="#about">Biz haqimizda</a></li>
-              <li><a href="#doctors">Shifokorlar</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h4>Xizmatlar</h4>
-            <ul>
-              <li><a href="#">LOR (Otorinolaringologiya)</a></li>
-              <li><a href="#">Tibbiy ukol muolajasi</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h4>Bizni kuzatib boring</h4>
-            <div class="social-links">
-              <a href="https://www.facebook.com/SampiMedline/"
-                ><i class="fab fa-facebook"></i
-              ></a>
-              <a href="https://www.tiktok.com/@sampi.medline"
-                ><i class="fab fa-tiktok"></i
-              ></a>
-              <a href="https://www.instagram.com/sampi_medline/"
-                ><i class="fab fa-instagram"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="footer-bottom">
           <p>
-            &copy; 2025 Sampi Medline klinikasi. Barcha huquqlar himoyalangan.
+            Zamonaviy tibbiy texnologiyalar va tajribali mutaxassislar bilan
+            xizmat ko‘rsatamiz.
           </p>
         </div>
+
+        <div class="footer-section">
+          <h4>Tezkor havolalar</h4>
+          <ul>
+            <li><a href="#home">Bosh sahifa</a></li>
+            <li><a href="#services">Xizmatlar</a></li>
+            <li><a href="#about">Biz haqimizda</a></li>
+            <li><a href="#doctors">Shifokorlar</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Xizmatlar</h4>
+          <ul>
+            <li><a href="#services">LOR</a></li>
+            <li><a href="#services">Tibbiy muolaja</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Bizni kuzatib boring</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/SampiMedline/"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.tiktok.com/@sampi.medline"
+              ><i class="fab fa-tiktok"></i
+            ></a>
+            <a href="https://www.instagram.com/sampi_medline/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2023 Sampi Medline klinikasi. Barcha huquqlar himoyalangan.
+        </p>
       </div>
     </footer>
 
